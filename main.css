@@ -4,6 +4,7 @@
 .header-div {
 display: flex;
 height: 30vh;
+width: 100vw;
 background-color: #3a3939c4;
 margin: 0;
 align-items: center;
@@ -45,9 +46,25 @@ gap: 20px;
     }
 .skills-section ul {
     list-style-type:square;    
-    padding-left: 20px;}
+    padding-left: 20px;
+}
+
 
 a {
     color: #95fd78;
     text-decoration: none;
+}a:hover {
+    text-decoration: underline;
+}
+.languages li::marker{
+    color: #95fd78;
+}
+.webdev li::marker{
+    color: #4de7d0;
+}
+.robotics li::marker{
+    color: #f9d664;
+}
+.others li::marker{
+    color: #91dafc;
 }
